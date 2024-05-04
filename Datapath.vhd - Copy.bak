@@ -1,0 +1,63 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.myLib.all;
+entity Datapath is
+ generic (data_width : Integer := 8);
+ port(
+	RST, CLK: in std_logic;
+	X_i, Y_i: in std_logic_vector (data_width -1 downto 0);
+	GCD_o : out std_logic_vector (data_width -1 downto 0);
+	X_sel, Y_sel : in std_logic;
+	X_ld, Y_ld : in std_logic;
+	GCD_ld  : in std_logic;
+	X_neq_Y, X_lt_Y : out std_logic
+);
+
+end Datapath;
+
+architecture RTL of Datapath is
+ signal X_src, XsubY, Y_src, YsubX, X, Y : std_logic_vector (data_width -1 downto 0);
+ 
+ begin
+ -- mux for X
+  X_src <=  X_i when X_sel = '1' else XsubY;
+ -- mux for Y
+  Y_src <=  Y_i when Y_sel = '1' else YsubX;
+ -- comparator not equal
+ X_neq_Y <= '1' when X /= Y else '0';
+ -- reg X
+ X_lt_Y <= '1' when X < Y else '0';
+-- X - Y
+ XsubY <= X - Y;
+-- Y - X
+ YsubX <= Y - X;
+ REGX : REGn
+ generic map (data_width => data_width)
+ port map(
+	RST => RST,
+	CLK => CLK,
+	EN => X_ld,
+	D => X_src,
+	Q => X
+);
+ -- reg Y
+REGY : REGn
+ generic map (data_width => data_width)
+ port map(
+	RST => RST,
+	CLK => CLK,
+	EN => Y_ld,
+	D => Y_src,
+	Q => Y
+);
+-- reg GCD
+REG_GCD : REGn
+ generic map (data_width => data_width)
+ port map(
+	RST => RST,
+	CLK => CLK,
+	EN => GCD_ld,
+	D => X,
+	Q => GCD_o
+);
+ end RTL;

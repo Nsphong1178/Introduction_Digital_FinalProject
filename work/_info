@@ -1,0 +1,1182 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_10.5/examples/Digital_design_tutorial
+T_opt
+!s110 1712023546
+VQ8^QI_k`RMOAYA[93<a8]2
+Z1 04 6 3 work gcd_tb bev 1
+=1-0897989e8905-660b67f9-322-169c
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.5;63
+R0
+T_opt1
+!s110 1714221646
+VBb0C51SKohkRaQ250hH;X2
+04 14 10 work jk_flipflop_tb behavioral 1
+=1-0897989e8905-662cf24e-e9-3818
+o-quiet -auto_acc_if_foreign -work work +acc
+R3
+n@_opt1
+R4
+T_opt2
+!s110 1706589016
+V8:LGV0DG_ien2zPbieYe?1
+04 10 10 work half_adder behavioral 1
+=1-0897989e8905-65b87b58-ae-5170
+R2
+R3
+n@_opt2
+R4
+R0
+Eand_gate
+Z5 w1706094483
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z8 8C:/modeltech64_10.5/examples/Digital_design_tutorial/And_Gate.vhd
+Z9 FC:/modeltech64_10.5/examples/Digital_design_tutorial/And_Gate.vhd
+l0
+L5
+Vea7e;VNaFJ@d>8dA:C25L0
+!s100 :1Wj1InmN=1U2aaf^nbCm1
+Z10 OL;C;10.5;63
+32
+Z11 !s110 1714127194
+!i10b 1
+Z12 !s108 1714127194.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.5/examples/Digital_design_tutorial/And_Gate.vhd|
+Z14 !s107 C:/modeltech64_10.5/examples/Digital_design_tutorial/And_Gate.vhd|
+!i113 0
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
+Abehavioral
+R6
+R7
+DEx4 work 8 and_gate 0 22 ea7e;VNaFJ@d>8dA:C25L0
+l12
+L11
+V]>AbN>S6D`ioVhVnfg>XK0
+!s100 aR]zlJkS;kn47d0]1SI7g3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Eand_gate_tb
+Z17 w1706098643
+Z18 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z19 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R6
+R7
+R0
+Z20 8C:/modeltech64_10.5/examples/Digital_design_tutorial/And_Gate_Tb.vhd
+Z21 FC:/modeltech64_10.5/examples/Digital_design_tutorial/And_Gate_Tb.vhd
+l0
+L5
+VA@ZKNXAG^N6?I>_CAbDEB0
+!s100 f3e0RgiDT1jRAOOYlhk[33
+R10
+32
+R11
+!i10b 1
+R12
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.5/examples/Digital_design_tutorial/And_Gate_Tb.vhd|
+Z23 !s107 C:/modeltech64_10.5/examples/Digital_design_tutorial/And_Gate_Tb.vhd|
+!i113 0
+R15
+R16
+Atestbench
+R18
+R19
+R6
+R7
+DEx4 work 11 and_gate_tb 0 22 A@ZKNXAG^N6?I>_CAbDEB0
+l18
+L8
+V6DN_4gQl4g[>eQ>o3]jaI0
+!s100 UE6O`iQ;7BWNJZ_?>nKa10
+R10
+32
+R11
+!i10b 1
+R12
+R22
+R23
+!i113 0
+R15
+R16
+TAnd_Gate_Tb_opt
+!s110 1706098811
+V>A<A>fWC7_XDgGhh6X85B3
+04 11 9 work and_gate_tb testbench 1
+Z24 o+acc
+R3
+n@and_@gate_@tb_opt
+R4
+R0
+Ebcd_tb
+Z25 w1712033304
+R6
+R7
+R0
+Z26 8C:/modeltech64_10.5/examples/Digital_design_tutorial/BCD_tb.vhd
+Z27 FC:/modeltech64_10.5/examples/Digital_design_tutorial/BCD_tb.vhd
+l0
+L4
+V:mE;hh:12gl^gTCAd4oY03
+!s100 4hQC4j1VZkVPCAm>9PUVN2
+R10
+32
+Z28 !s110 1714127195
+!i10b 1
+Z29 !s108 1714127195.000000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.5/examples/Digital_design_tutorial/BCD_tb.vhd|
+Z31 !s107 C:/modeltech64_10.5/examples/Digital_design_tutorial/BCD_tb.vhd|
+!i113 0
+R15
+R16
+Abev
+Z32 DEx4 work 11 counter_bcd 0 22 <1=IB6CGE7fF:5?oXO^O;2
+R6
+R7
+DEx4 work 6 bcd_tb 0 22 :mE;hh:12gl^gTCAd4oY03
+l10
+L7
+VkLZP9[:CG>4E5_W>[ZQ2E2
+!s100 X9Q8LDgG<PN1NSnl[n5g[0
+R10
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 0
+R15
+R16
+TBCD_tb_opt
+!s110 1712033323
+Vd8Pe<Z_c70@V?mAz]fd7R0
+04 6 3 work bcd_tb bev 1
+R24
+R3
+n@b@c@d_tb_opt
+R4
+R0
+Econtroller
+Z33 w1713453118
+Z34 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z35 DPx4 work 8 user_lib 0 22 0ZkNO:[Yg[>n^:8fj[gDT3
+R6
+R7
+R0
+Z36 8D:/Controller.vhd
+Z37 FD:/Controller.vhd
+l0
+L5
+VkfM`l<2XRW;bf4e4X4`=D2
+!s100 A2DAS;m2c7U5kjmNen`6E0
+R10
+32
+Z38 !s110 1714121767
+!i10b 1
+Z39 !s108 1714121767.000000
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Controller.vhd|
+Z41 !s107 D:/Controller.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R34
+R35
+R6
+R7
+DEx4 work 10 controller 0 22 kfM`l<2XRW;bf4e4X4`=D2
+l23
+L19
+V7d42WTRNDi>BI9^hcnI__2
+!s100 Q_oj]hgBnB<^8K[4i;<Ah1
+R10
+32
+Z42 !s110 1714121768
+!i10b 1
+R39
+R40
+R41
+!i113 0
+R15
+R16
+Artl
+R6
+R7
+DEx4 work 10 controller 0 22 >I4lIlQK7kAk9E^nT_YnS2
+l21
+L18
+Vm]PhSCSGF6d_<`E1j4K;J1
+!s100 l`Ym9GE73f2@@50KY4POP0
+R10
+32
+Z43 !s110 1712023551
+!i10b 1
+Z44 !s108 1712023551.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.5/examples/Digital_design_tutorial/Controller.vhd|
+!s107 C:/modeltech64_10.5/examples/Digital_design_tutorial/Controller.vhd|
+!i113 0
+R15
+R16
+FC:/modeltech64_10.5/examples/Digital_design_tutorial/Controller.vhd
+w1711992570
+8C:/modeltech64_10.5/examples/Digital_design_tutorial/Controller.vhd
+Ecounter
+w1713433847
+R6
+R7
+R0
+8counter.vhd
+Fcounter.vhd
+l0
+L5
+V>DzjY8zm@MX8Q`Yb^a[XW3
+!s100 1z9B8fbK@?@N@nocgU;TQ1
+R10
+32
+!s110 1714123629
+!i10b 1
+!s108 1714123629.000000
+!s90 -reportprogress|300|counter.vhd|
+!s107 counter.vhd|
+!i113 0
+R16
+Ecounter_bcd
+Z45 w1714125850
+R6
+R7
+R0
+Z46 8C:/modeltech64_10.5/examples/Digital_design_tutorial/counter_BCD.vhd
+Z47 FC:/modeltech64_10.5/examples/Digital_design_tutorial/counter_BCD.vhd
+l0
+L4
+V<1=IB6CGE7fF:5?oXO^O;2
+!s100 ;Sice@RBgNQDGYd5kk5P02
+R10
+32
+R28
+!i10b 1
+R29
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.5/examples/Digital_design_tutorial/counter_BCD.vhd|
+Z49 !s107 C:/modeltech64_10.5/examples/Digital_design_tutorial/counter_BCD.vhd|
+!i113 0
+R15
+R16
+Astate_machine
+R6
+R7
+R32
+l16
+L11
+VnLz;WEEn[?;f<FHU]2Pl:1
+!s100 G@QTiagRHW@QN6f`KJLTG3
+R10
+32
+R28
+!i10b 1
+R29
+R48
+R49
+!i113 0
+R15
+R16
+Ecounter_n
+Z50 w1713453115
+R18
+R19
+R6
+R7
+R0
+Z51 8D:/counter_n.vhd
+Z52 FD:/counter_n.vhd
+l0
+L6
+Vem2dRbW99MMMUQ33iC3^n3
+!s100 C>W7IKg8abmKW[AeD?B>z0
+R10
+32
+Z53 !s110 1714121772
+!i10b 1
+Z54 !s108 1714121772.000000
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/counter_n.vhd|
+Z56 !s107 D:/counter_n.vhd|
+!i113 0
+R15
+R16
+Abehav
+R18
+R19
+R6
+R7
+DEx4 work 9 counter_n 0 22 em2dRbW99MMMUQ33iC3^n3
+l16
+L15
+VaV1_:NiNGN`4F`KRbhf=Z2
+!s100 T>VH6^[WjlfMX:7aJKi^D2
+R10
+32
+R53
+!i10b 1
+R54
+R55
+R56
+!i113 0
+R15
+R16
+Ed_flipflop
+Z57 w1706528065
+R6
+R7
+R0
+Z58 8C:/modeltech64_10.5/examples/Digital_design_tutorial/Dflipflop.vhd
+Z59 FC:/modeltech64_10.5/examples/Digital_design_tutorial/Dflipflop.vhd
+l0
+L4
+VTld0He?e<H3PhWI[h3k0f2
+!s100 :`@ISbGnj_>;PmIVe]R4F3
+R10
+32
+R28
+!i10b 1
+R12
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.5/examples/Digital_design_tutorial/Dflipflop.vhd|
+Z61 !s107 C:/modeltech64_10.5/examples/Digital_design_tutorial/Dflipflop.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R6
+R7
+DEx4 work 10 d_flipflop 0 22 Tld0He?e<H3PhWI[h3k0f2
+l12
+L11
+Vfo0EnLQ<]eFO8ZXR^@77<0
+!s100 U<SW_[F7oa3lZV83AoTiO2
+R10
+32
+R28
+!i10b 1
+R12
+R60
+R61
+!i113 0
+R15
+R16
+Ed_flipflop_tb
+Z62 w1706514132
+R6
+R7
+R0
+Z63 8C:/modeltech64_10.5/examples/Digital_design_tutorial/Dflipflop_tb.vhd
+Z64 FC:/modeltech64_10.5/examples/Digital_design_tutorial/Dflipflop_tb.vhd
+l0
+L4
+V@gHKIGT][O;aZDiM>fPO01
+!s100 nJS?Oizdb[V=TiDPg<V>31
+R10
+32
+R28
+!i10b 1
+R29
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.5/examples/Digital_design_tutorial/Dflipflop_tb.vhd|
+Z66 !s107 C:/modeltech64_10.5/examples/Digital_design_tutorial/Dflipflop_tb.vhd|
+!i113 0
+R15
+R16
+Atestbench
+R6
+R7
+DEx4 work 13 d_flipflop_tb 0 22 @gHKIGT][O;aZDiM>fPO01
+l18
+L7
+VSHAgPZI>L_Zbi5kzQV[YT3
+!s100 lk>SWCAcZ<:d@KoL8WcZm1
+R10
+32
+R28
+!i10b 1
+R29
+R65
+R66
+!i113 0
+R15
+R16
+Td_flipflop_tb_opt
+!s110 1706545422
+V7<g4k4KljH9<Mc[@Y;OWH0
+04 13 9 work d_flipflop_tb testbench 1
+R24
+R3
+nd_flipflop_tb_opt
+R4
+R0
+Edatapath
+Z67 w1713452886
+R19
+R18
+R34
+R35
+R6
+R7
+R0
+Z68 8D:/datapath.vhd
+Z69 FD:/datapath.vhd
+l0
+L8
+V2`MEX_QY9DFEi_R[B2gUa1
+!s100 LYJSDHFDmz=YiBU259CVT1
+R10
+32
+R42
+!i10b 1
+Z70 !s108 1714121768.000000
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/datapath.vhd|
+Z72 !s107 D:/datapath.vhd|
+!i113 0
+R15
+R16
+Artl
+R19
+R18
+R34
+R35
+R6
+R7
+DEx4 work 8 datapath 0 22 2`MEX_QY9DFEi_R[B2gUa1
+l43
+L30
+V[F@CNn9mGco`3DAccQ=e`1
+!s100 lZ=KaUL;>UCa@63gTUm:H3
+R10
+32
+R42
+!i10b 1
+R70
+R71
+R72
+!i113 0
+R15
+R16
+Edpmem
+Z73 w1713453113
+R18
+R19
+R6
+R7
+R0
+Z74 8D:/dpmem.vhd
+Z75 FD:/dpmem.vhd
+l0
+L9
+VG8VD6JKiElbZK:B@fhXG=3
+!s100 BkZiD>6>Z[?KTifTo1e_O1
+R10
+32
+R42
+!i10b 1
+R70
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/dpmem.vhd|
+Z77 !s107 D:/dpmem.vhd|
+!i113 0
+R15
+R16
+Adpmem_arch
+R18
+R19
+R6
+R7
+DEx4 work 5 dpmem 0 22 G8VD6JKiElbZK:B@fhXG=3
+l37
+L31
+VHCoPi`GO=aU4ZLnjLHzIi3
+!s100 0T93_5MT@:bj6;9>m58?`3
+R10
+32
+R42
+!i10b 1
+R70
+R76
+R77
+!i113 0
+R15
+R16
+Egcd
+Z78 w1711991893
+Z79 DPx4 work 5 mylib 0 22 d]ilnMz@52a2YCa[AaIR81
+R6
+R7
+R0
+Z80 8C:/modeltech64_10.5/examples/Digital_design_tutorial/GCD.vhd
+Z81 FC:/modeltech64_10.5/examples/Digital_design_tutorial/GCD.vhd
+l0
+L4
+VhWJ7TdcRAF3F=c4A=[Ub@1
+!s100 FGCKj`]1zQ1]A`L<:N8Z33
+R10
+32
+R43
+!i10b 1
+R44
+Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.5/examples/Digital_design_tutorial/GCD.vhd|
+Z83 !s107 C:/modeltech64_10.5/examples/Digital_design_tutorial/GCD.vhd|
+!i113 0
+R15
+R16
+Artl
+R79
+R6
+R7
+DEx4 work 3 gcd 0 22 hWJ7TdcRAF3F=c4A=[Ub@1
+l23
+L17
+VbgM6`Y_3GcQ;@CHL:bNDW3
+!s100 U1E[W_LJjKGnR0hk1[7;b3
+R10
+32
+R43
+!i10b 1
+R44
+R82
+R83
+!i113 0
+R15
+R16
+Abehavioral
+R19
+R18
+R6
+R7
+DEx4 work 3 gcd 0 22 5zna@V6[WoZVd1gh;@45j3
+l15
+L14
+Vj5a2D94_6V4DozdHlh9_Y0
+!s100 7c37PX7^ROGfV2?<YIM6g1
+R10
+32
+!s110 1711951500
+!i10b 1
+!s108 1711951500.000000
+Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.5/examples/Digital_design_tutorial/main.vhd|
+Z85 !s107 C:/modeltech64_10.5/examples/Digital_design_tutorial/main.vhd|
+!i113 0
+R15
+R16
+Z86 FC:/modeltech64_10.5/examples/Digital_design_tutorial/main.vhd
+w1711951041
+Z87 8C:/modeltech64_10.5/examples/Digital_design_tutorial/main.vhd
+Egcd_tb
+Z88 w1712023524
+R79
+R6
+R7
+R0
+Z89 8C:/modeltech64_10.5/examples/Digital_design_tutorial/GCD_tb.vhd
+Z90 FC:/modeltech64_10.5/examples/Digital_design_tutorial/GCD_tb.vhd
+l0
+L5
+V?MW6WX<:0TT:iBkgd1A>f2
+!s100 8i;0S_nH;iM^]blf^a0_20
+R10
+32
+Z91 !s110 1712025046
+!i10b 1
+Z92 !s108 1712025045.000000
+Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.5/examples/Digital_design_tutorial/GCD_tb.vhd|
+Z94 !s107 C:/modeltech64_10.5/examples/Digital_design_tutorial/GCD_tb.vhd|
+!i113 0
+R15
+R16
+Abev
+R79
+R6
+R7
+DEx4 work 6 gcd_tb 0 22 ?MW6WX<:0TT:iBkgd1A>f2
+l16
+L9
+V_T^eQ7?D179[4:GSLd61j3
+!s100 c8e_EHmQgJ1V7XmdSPCOY0
+R10
+32
+R91
+!i10b 1
+R92
+R93
+R94
+!i113 0
+R15
+R16
+Tgcd_tb_opt
+!s110 1712023562
+VF^mb[VLefZ1>CP`ZC3Ak93
+R1
+o
+R3
+ngcd_tb_opt
+R4
+R0
+Egcd_testbench
+Z95 w1711951122
+R6
+R7
+R0
+Z96 8C:/modeltech64_10.5/examples/Digital_design_tutorial/testbench.vhd
+Z97 FC:/modeltech64_10.5/examples/Digital_design_tutorial/testbench.vhd
+l0
+L5
+V_:gh_FjDCRNaEi7<WTICU2
+!s100 2SaoD>gI`88`Ub?EO?cNz3
+R10
+32
+Z98 !s110 1711951504
+!i10b 1
+Z99 !s108 1711951504.000000
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.5/examples/Digital_design_tutorial/testbench.vhd|
+Z101 !s107 C:/modeltech64_10.5/examples/Digital_design_tutorial/testbench.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R6
+R7
+DEx4 work 13 gcd_testbench 0 22 _:gh_FjDCRNaEi7<WTICU2
+l27
+L8
+VSSc6K6DJF5NDnDbiG^U>d1
+!s100 89FlYzh3_]k0`YEfOzgIc3
+R10
+32
+R98
+!i10b 1
+R99
+R100
+R101
+!i113 0
+R15
+R16
+Ehalf_adder
+Z102 w1706547251
+R6
+R7
+R0
+Z103 8C:/modeltech64_10.5/examples/Digital_design_tutorial/half_adder.vhd
+Z104 FC:/modeltech64_10.5/examples/Digital_design_tutorial/half_adder.vhd
+l0
+L4
+V72@j2HI[NSN3<_2F3S^Ho3
+!s100 ?ZCGGUXm2VBQKd<[3Ma_o3
+R10
+32
+R28
+!i10b 1
+R29
+Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.5/examples/Digital_design_tutorial/half_adder.vhd|
+Z106 !s107 C:/modeltech64_10.5/examples/Digital_design_tutorial/half_adder.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R6
+R7
+DEx4 work 10 half_adder 0 22 72@j2HI[NSN3<_2F3S^Ho3
+l15
+L13
+VJ:ojFCCZ0akBl8ij__dYQ2
+!s100 h]ODHJ`:6gF:mToN23i>I1
+R10
+32
+R28
+!i10b 1
+R29
+R105
+R106
+!i113 0
+R15
+R16
+Ehalf_adder_tb
+Z107 w1706548589
+R6
+R7
+R0
+Z108 8C:/modeltech64_10.5/examples/Digital_design_tutorial/half_adder_tb.vhd
+Z109 FC:/modeltech64_10.5/examples/Digital_design_tutorial/half_adder_tb.vhd
+l0
+L4
+VUnZJO_R2ZXC[N7WW8DVlf0
+!s100 I4cIhY[kjO7?DR66Eh6jS2
+R10
+32
+R28
+!i10b 1
+R29
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.5/examples/Digital_design_tutorial/half_adder_tb.vhd|
+Z111 !s107 C:/modeltech64_10.5/examples/Digital_design_tutorial/half_adder_tb.vhd|
+!i113 0
+R15
+R16
+Atestbench
+R6
+R7
+DEx4 work 13 half_adder_tb 0 22 UnZJO_R2ZXC[N7WW8DVlf0
+l18
+L7
+VZi@zhS>F=<6zHh_f7=7370
+!s100 oY;bLJcAgJN:02>3DGJVe3
+R10
+32
+R28
+!i10b 1
+R29
+R110
+R111
+!i113 0
+R15
+R16
+Thalf_adder_tb_opt
+!s110 1706548628
+V0gzk3:6jj<i;N4EbjiXeL1
+04 13 9 work half_adder_tb testbench 1
+R24
+R3
+nhalf_adder_tb_opt
+R4
+R0
+Ehelloworld
+Z112 w1706025301
+R0
+Z113 8C:/modeltech64_10.5/examples/Digital_design_tutorial/HelloWorld.vhd
+Z114 FC:/modeltech64_10.5/examples/Digital_design_tutorial/HelloWorld.vhd
+l0
+L1
+VEGca]84I@G0ch7OOhY6Tn0
+!s100 BE^J=[n95Ez`SjW=6=RIW3
+R10
+32
+R11
+!i10b 1
+R12
+Z115 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.5/examples/Digital_design_tutorial/HelloWorld.vhd|
+Z116 !s107 C:/modeltech64_10.5/examples/Digital_design_tutorial/HelloWorld.vhd|
+!i113 0
+R15
+R16
+Alab
+DEx4 work 10 helloworld 0 22 EGca]84I@G0ch7OOhY6Tn0
+l5
+L4
+VoLH2L<naZ>TLF4T:z?1YA3
+!s100 ?ZzBdI30eZJ3eF5CJEiX93
+R10
+32
+R11
+!i10b 1
+R12
+R115
+R116
+!i113 0
+R15
+R16
+Ejk_flipflop
+Z117 w1714129087
+R18
+R19
+R6
+R7
+R0
+Z118 8C:/modeltech64_10.5/examples/Digital_design_tutorial/JKflipflop.vhd
+Z119 FC:/modeltech64_10.5/examples/Digital_design_tutorial/JKflipflop.vhd
+l0
+L5
+V^]h>e=4]0_NWzE[1e5lb]0
+!s100 8b`dMC[nb_`6RVG^V4m@73
+R10
+32
+Z120 !s110 1714129241
+!i10b 1
+Z121 !s108 1714129241.000000
+Z122 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.5/examples/Digital_design_tutorial/JKflipflop.vhd|
+Z123 !s107 C:/modeltech64_10.5/examples/Digital_design_tutorial/JKflipflop.vhd|
+!i113 0
+R15
+R16
+Abehavioral_jk
+R18
+R19
+R6
+R7
+DEx4 work 11 jk_flipflop 0 22 ^]h>e=4]0_NWzE[1e5lb]0
+l15
+L12
+V9U@UlDKGf`==d3FRoQW_22
+!s100 9eI5Xc4fn@zC4=4o^4CoA2
+R10
+32
+R120
+!i10b 1
+R121
+R122
+R123
+!i113 0
+R15
+R16
+Ejk_flipflop_tb
+Z124 w1714127190
+R6
+R7
+R0
+Z125 8C:/modeltech64_10.5/examples/Digital_design_tutorial/JKflipflop_tb.vhd
+Z126 FC:/modeltech64_10.5/examples/Digital_design_tutorial/JKflipflop_tb.vhd
+l0
+L5
+VFW]IHaYMFLANcR[_V6<3c2
+!s100 DI58A5_FdBWHhlbEGM74h3
+R10
+32
+Z127 !s110 1714129242
+!i10b 1
+Z128 !s108 1714129242.000000
+Z129 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.5/examples/Digital_design_tutorial/JKflipflop_tb.vhd|
+Z130 !s107 C:/modeltech64_10.5/examples/Digital_design_tutorial/JKflipflop_tb.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R6
+R7
+DEx4 work 14 jk_flipflop_tb 0 22 FW]IHaYMFLANcR[_V6<3c2
+l21
+L8
+Vjb6DQ[DZ^f^nCP`AQcTLg3
+!s100 j=mIW]nh_o8<3U]lB[@k71
+R10
+32
+R127
+!i10b 1
+R128
+R129
+R130
+!i113 0
+R15
+R16
+Emain
+Z131 w1711951920
+R19
+R18
+R6
+R7
+R0
+R87
+R86
+l0
+L6
+VbS`^nmYjIbfEIf2CY@KlM0
+!s100 Ko3VP=Sod582k0gggS<Jj0
+R10
+32
+Z132 !s110 1711954215
+!i10b 1
+Z133 !s108 1711954215.000000
+R84
+R85
+!i113 0
+R15
+R16
+Abehavioral
+R19
+R18
+R6
+R7
+DEx4 work 4 main 0 22 bS`^nmYjIbfEIf2CY@KlM0
+l15
+L14
+VBNB^@A:f7KXhdnG1RDh1`3
+!s100 [7o3]MPaKJ82K2ZU<T6SO1
+R10
+32
+R132
+!i10b 1
+R133
+R84
+R85
+!i113 0
+R15
+R16
+Emux4
+Z134 w1706772041
+R6
+R7
+R0
+Z135 8C:/modeltech64_10.5/examples/Digital_design_tutorial/4mux1.vhd
+Z136 FC:/modeltech64_10.5/examples/Digital_design_tutorial/4mux1.vhd
+l0
+L4
+V^U0^i8S`2b?Z1o?1L62;40
+!s100 @jS746KPB_ATQ:EhhGWMN2
+R10
+32
+R28
+!i10b 1
+R29
+Z137 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.5/examples/Digital_design_tutorial/4mux1.vhd|
+Z138 !s107 C:/modeltech64_10.5/examples/Digital_design_tutorial/4mux1.vhd|
+!i113 0
+R15
+R16
+Amux4
+R6
+R7
+DEx4 work 4 mux4 0 22 ^U0^i8S`2b?Z1o?1L62;40
+l11
+L9
+VN1Ej?gYJO<KIEZ1NAMJSn3
+!s100 BW6i]noZ`XOYndD=A[Y;j2
+R10
+32
+R28
+!i10b 1
+R29
+R137
+R138
+!i113 0
+R15
+R16
+Pmylib
+R6
+R7
+w1711958304
+R0
+8C:/modeltech64_10.5/examples/Digital_design_tutorial/myLib.vhd
+FC:/modeltech64_10.5/examples/Digital_design_tutorial/myLib.vhd
+l0
+L4
+Vd]ilnMz@52a2YCa[AaIR81
+!s100 [6Va=74c6NnA]TPeBH9a]0
+R10
+32
+R43
+!i10b 1
+R44
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.5/examples/Digital_design_tutorial/myLib.vhd|
+!s107 C:/modeltech64_10.5/examples/Digital_design_tutorial/myLib.vhd|
+!i113 0
+R15
+R16
+Eregn
+Z139 w1713453114
+R34
+R35
+R6
+R7
+R0
+Z140 8D:/regn.vhd
+Z141 FD:/regn.vhd
+l0
+L5
+VPO8UfN;RYcWUJ0iLPzE6;3
+!s100 7__1I`cXfDGe798L7]BRh1
+R10
+32
+R42
+!i10b 1
+R70
+Z142 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/regn.vhd|
+Z143 !s107 D:/regn.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R34
+R35
+R6
+R7
+DEx4 work 4 regn 0 22 PO8UfN;RYcWUJ0iLPzE6;3
+l14
+L13
+V=W<O=RgPmlV4F;jCkKC@;3
+!s100 3zY2_HQQa:^EB2BN4O5oI3
+R10
+32
+R42
+!i10b 1
+R70
+R142
+R143
+!i113 0
+R15
+R16
+Artl
+R6
+R7
+DEx4 work 4 regn 0 22 :713joPb0AIbP0kU?3_bb1
+l18
+L17
+VV6zaSQfF5k:`9z[RZCb4g1
+!s100 ^L48j8g09EAe0icC_Gl8h3
+R10
+32
+R43
+!i10b 1
+R44
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.5/examples/Digital_design_tutorial/Regn.vhd|
+!s107 C:/modeltech64_10.5/examples/Digital_design_tutorial/Regn.vhd|
+!i113 0
+R15
+R16
+FC:/modeltech64_10.5/examples/Digital_design_tutorial/Regn.vhd
+w1711869952
+8C:/modeltech64_10.5/examples/Digital_design_tutorial/Regn.vhd
+Esorter
+Z144 w1713453121
+R18
+R19
+R34
+R35
+R6
+R7
+R0
+Z145 8D:/Sorter.vhd
+Z146 FD:/Sorter.vhd
+l0
+L7
+V8X2^DYG9F==>732CiUk0[1
+!s100 15`ADh5U1OI[=[9eKJ^Rm1
+R10
+32
+R38
+!i10b 1
+R39
+Z147 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Sorter.vhd|
+Z148 !s107 D:/Sorter.vhd|
+!i113 0
+R15
+R16
+Artl
+R18
+R19
+R34
+R35
+R6
+R7
+DEx4 work 6 sorter 0 22 8X2^DYG9F==>732CiUk0[1
+l33
+L24
+VgVJACV;LaOLOQaijW57zh3
+!s100 :?WCb3U3<TJJThM^U7@@K0
+R10
+32
+R38
+!i10b 1
+R39
+R147
+R148
+!i113 0
+R15
+R16
+Etestbench
+Z149 w1711952839
+R6
+R7
+R0
+R96
+R97
+l0
+L5
+VJU=Q[;`BIge9GIV`0nk7k3
+!s100 =KRBRFT:Lz2gN[MdRS>fd1
+R10
+32
+Z150 !s110 1711954211
+!i10b 1
+Z151 !s108 1711954210.000000
+R100
+R101
+!i113 0
+R15
+R16
+Abehavior
+R6
+R7
+DEx4 work 9 testbench 0 22 JU=Q[;`BIge9GIV`0nk7k3
+l27
+L8
+ViA2A0=V=zh1E?PoYDaY;E3
+!s100 jlJGc^A4;2c022o;TPnQP3
+R10
+32
+R150
+!i10b 1
+R151
+R100
+R101
+!i113 0
+R15
+R16
+Ttestbench_opt
+!s110 1711954242
+V7AZ0hmVM3DI:@E58nE2nZ0
+04 9 8 work testbench behavior 1
+R24
+R3
+ntestbench_opt
+R4
+R0
+Puser_lib
+R34
+R6
+R7
+Z152 w1713453111
+R0
+Z153 8D:/User_Lib.vhd
+Z154 FD:/User_Lib.vhd
+l0
+L24
+V0ZkNO:[Yg[>n^:8fj[gDT3
+!s100 =@8]GBjgSGFYnVofI0l>Q1
+R10
+32
+R42
+!i10b 1
+R70
+Z155 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/User_Lib.vhd|
+Z156 !s107 D:/User_Lib.vhd|
+!i113 0
+R15
+R16
+Bbody
+R35
+R34
+R6
+R7
+l0
+L168
+VbXRPnbz^4VOlQj_F]HAFQ0
+!s100 GfzOJo:oOdk>0ZS2D^2`33
+R10
+32
+R42
+!i10b 1
+R70
+R155
+R156
+!i113 0
+R15
+R16

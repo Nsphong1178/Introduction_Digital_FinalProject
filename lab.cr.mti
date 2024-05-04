@@ -1,0 +1,96 @@
+C:/modeltech64_10.5/examples/Digital_design_tutorial/counter_BCD.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_10.5/examples/Digital_design_tutorial/counter_BCD.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity counter_BCD
+-- Compiling architecture state_machine of counter_BCD
+
+} {} {}} C:/modeltech64_10.5/examples/Digital_design_tutorial/HelloWorld.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_10.5/examples/Digital_design_tutorial/HelloWorld.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Compiling entity HelloWorld
+-- Compiling architecture lab of HelloWorld
+
+} {} {}} C:/modeltech64_10.5/examples/Digital_design_tutorial/And_Gate_Tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_10.5/examples/Digital_design_tutorial/And_Gate_Tb.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity And_Gate_Tb
+-- Compiling architecture testbench of And_Gate_Tb
+
+} {} {}} C:/modeltech64_10.5/examples/Digital_design_tutorial/Dflipflop.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_10.5/examples/Digital_design_tutorial/Dflipflop.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity d_flipflop
+-- Compiling architecture behavioral of D_flipflop
+
+} {} {}} C:/modeltech64_10.5/examples/Digital_design_tutorial/JKflipflop.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_10.5/examples/Digital_design_tutorial/JKflipflop.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity JK_FlipFlop
+-- Compiling architecture Behavioral_JK of JK_FlipFlop
+
+} {} {}} C:/modeltech64_10.5/examples/Digital_design_tutorial/half_adder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_10.5/examples/Digital_design_tutorial/half_adder.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity half_adder
+-- Compiling architecture behavioral of half_adder
+
+} {} {}} C:/modeltech64_10.5/examples/Digital_design_tutorial/BCD_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_10.5/examples/Digital_design_tutorial/BCD_tb.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BCD_tb
+-- Compiling architecture BEV of BCD_tb
+-- Loading entity counter_BCD
+
+} {} {}} C:/modeltech64_10.5/examples/Digital_design_tutorial/JKflipflop_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_10.5/examples/Digital_design_tutorial/JKflipflop_tb.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity JK_FlipFlop_TB
+-- Compiling architecture Behavioral of JK_FlipFlop_TB
+
+} {} {}} C:/modeltech64_10.5/examples/Digital_design_tutorial/4mux1.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_10.5/examples/Digital_design_tutorial/4mux1.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux4
+-- Compiling architecture mux4 of mux4
+
+} {} {}} C:/modeltech64_10.5/examples/Digital_design_tutorial/half_adder_tb.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_10.5/examples/Digital_design_tutorial/half_adder_tb.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity half_adder_tb
+-- Compiling architecture testbench of half_adder_tb
+** Warning: C:/modeltech64_10.5/examples/Digital_design_tutorial/half_adder_tb.vhd(24): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/modeltech64_10.5/examples/Digital_design_tutorial/half_adder_tb.vhd(26): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/modeltech64_10.5/examples/Digital_design_tutorial/half_adder_tb.vhd(27): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/modeltech64_10.5/examples/Digital_design_tutorial/half_adder_tb.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} C:/modeltech64_10.5/examples/Digital_design_tutorial/And_Gate.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_10.5/examples/Digital_design_tutorial/And_Gate.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate
+-- Compiling architecture behavioral of and_gate
+
+} {} {}}
